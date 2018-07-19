@@ -15,7 +15,7 @@ resource "aws_iam_role" "example" {
       "Principal": {
         "Service": "codebuild.amazonaws.com"
       },
-      "Action": "sts:AssumeRole"
+          "Action": "sts:AssumeRole"
     }
   ]
 }
