@@ -84,6 +84,10 @@ phases:
   build:
     commands:
       - cd $CODEBUILD_SRC_DIR
+      - env
+      - git status
+      - git log
+      - cat README.md
       - terraform fmt -check
 SPEC
   }
